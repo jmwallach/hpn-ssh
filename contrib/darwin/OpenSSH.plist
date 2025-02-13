@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>OpenSourceImportDate</key>
+	<string>2024-07-01</string>
+	<key>OpenSourceLicense</key>
+	<string>BSD</string>
+	<key>OpenSourceLicenseFile</key>
+	<string>OpenSSH.txt</string>
+	<key>OpenSourceModifications</key>
+	<array>
+		<string>Storing keys in Keychain on Leopard and later.</string>
+		<string>Launch ssh-agent via launchd.</string>
+		<string>PAM support.</string>
+		<string>Using membership APIs for AllowGroups.</string>
+		<string>Updated sandbox for privilege-separated pre-authorization sshd process</string>
+		<string>Use LibreSSL libcrypto</string>
+	</array>
+	<key>OpenSourceProject</key>
+	<string>OpenSSH</string>
+	<key>OpenSourceSHA256</key>
+	<string>dd8bd002a379b5d499dfb050dd1fa9af8029e80461f4bb6c523c49973f5a39f3</string>
+	<key>OpenSourceURL</key>
+	<string>https://cdn.openbsd.org/pub/OpenBSD/OpenSSH/portable/</string>
+	<key>OpenSourceVersion</key>
+	<string>9.8p1</string>
+	<key>OpenSourceWebsiteURL</key>
+	<string>http://www.openssh.org/</string>
+</dict>
+</plist>
